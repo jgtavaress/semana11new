@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas do Brasil</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Estilos customizados -->
+  <style>
+    #carouselReceitas {
+      height: 400px;
+      overflow: hidden;
+    }
+
+    #carouselReceitas img {
+      height: 400px;
+      object-fit: cover;
+    }
+    /* Estilos do Carrossel */
+.carousel-item {
+  border-radius: 15px; /* Borda arredondada */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.carousel-item:hover {
+  transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+/* Carrossel Container */
+#carouselReceitas {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 15px; /* Borda arredondada */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #dbcec1;
+    }
+    .navbar {
+      background-color: #ff6f00;
+    }
+    .navbar-brand, .nav-link {
+      color: rgb(255, 255, 255) !important;
+    }
+    header img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .img-fluid {
+      max-width: 100%;
+      height: auto;
+    }
+    .bg-white {
+      background-color: #fff;
+    }
+    .shadow-sm {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    ul.list-unstyled li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .banner {
+      max-height: 400px;
+      overflow: hidden;
+    }
+    .btn-outline-warning {
+  color: white;
+  background-color: #ff6f00;
+  border: 1px solid #ff6f00;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-warning:hover {
+  background-color: white;
+  color: #ff6f00;
+}
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #000000;
+      color: white;
+      padding: 20px 0;
+      margin-top: 10px;
+    }
+    /* Estilos dos Cards */
+.card {
+  border-radius: 12px; /* Borda arredondada */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta um pouco o tamanho ao passar o mouse */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+
+.card img {
+  border-radius: 12px 12px 0 0; /* Arredondando a parte superior da imagem */
+}
+
+.card-body {
+  padding: 20px; /* Ajustando o padding para um layout mais confortável */
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Receitas de minas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Receitas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <header class="banner position-relative">
+    <img src="img/360_F_427926621_Llgecr9n2r2VtJYVhhLIFOFy8rYyjKjv.jpg" alt="Banner" class="img-fluid">
+    <div class="position-absolute top-50 start-50 translate-middle text-white text-center p-4 bg-dark bg-opacity-50 rounded">
+      <h1 class="display-5 fw-bold">Receitas de Minas</h1>
+      <p class="lead">Tradição, sabor e histórias à mesa</p>
+    </div>
+  </header>
+
+  <!-- Texto de boas-vindas -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Bem-vindo ao site de receitas mais saboroso do Brasil!</h2>
+      <p>Explore pratos típicos, doces irresistíveis e dicas para impressionar na cozinha!</p>
+    </div>
+  </section>
+
+  <!-- Receita em Destaque -->
+  <section class="container-fluid my-5 px-4">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="img/feijoada3.jpg" alt="Feijoada" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">Receita em Destaque</h2>
+        <h3>Feijoada Brasileira</h3>
+        <p>Prato típico das famílias brasileiras. Conheça os segredos da feijoada perfeita!</p>
+        <a href="detalhes.html?id=2" class="btn btn-outline-warning mt-2">Ver Receita</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Área Principal -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="row g-4" id="area-cards">        
+      
+        <!-- Área Principal: Carrossel + Receitas Populares -->
+<section class="container my-5">
+  <div class="row">
+    <!-- Carrossel -->
+    <div class="col-md-8">
+      <!-- Barra de busca -->
+      <div class="input-group mb-4">
+        <input type="text" id="campo-busca" class="form-control" placeholder="Buscar receitas...">
+        <span class="input-group-text bg-warning">
+          <i class="bi bi-search"></i>
+        </span>
+      </div>
+
+      <div id="carouselReceitas" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner rounded shadow-sm" id="carousel-inner"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselReceitas" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselReceitas" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Coluna lateral: Receitas Populares -->
+    <div class="col-md-4">
+      <div class="bg-white p-4 rounded shadow-sm mb-4">
+        <h4 class="fw-bold">Receitas Populares</h4>
+        <ul class="list-unstyled">
+          <li><a href="detalhes.html?id=1" class="text-decoration-none text-dark">• Bolo de Cenoura</a></li>
+          <li><a href="detalhes.html?id=2" class="text-decoration-none text-dark">• Feijoada</a></li>
+          <li><a href="detalhes.html?id=3" class="text-decoration-none text-dark">• Feijão Tropeiro</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Cards de Receitas: em largura total -->
+<section class="container-fluid my-5 px-4">
+  <div class="row g-4" id="area-cards">
+    <!-- Os cards são inseridos via JavaScript -->
+  </div>
+</section>
+
+      
+
+      
+
+
+  <!-- Rodapé -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-1">© 2025 Receitas de Minas. Todos os direitos reservados.</p>
+      <p class="fst-italic" style="color:#ccc">"Cozinhar é um ato de amor em fogo baixo."</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + App -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js" defer></script>
+
+</body>
+</html>

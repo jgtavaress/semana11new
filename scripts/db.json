@@ -1,0 +1,144 @@
+{
+  "receitas": [
+    {
+      "id": 1,
+      "titulo": "Bolo de Cenoura",
+      "descricao": "Fofinho e coberto com chocolate!",
+      "imagem": "img/29-14.webp",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-01",
+      "conteudo": "Misture cenoura, ovos e óleo no liquidificador. Adicione farinha, açúcar e fermento. Asse por 40 min. Cubra com chocolate derretido.",
+      "dica": "Use cenouras frescas e pequenas para mais sabor."
+    },
+    {
+      "id": 2,
+      "titulo": "Feijoada",
+      "descricao": "O clássico brasileiro completo.",
+      "imagem": "img/feijoada3.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-03-15",
+      "conteudo": "Cozinhe o feijão preto com carnes salgadas. Refogue alho, cebola e junte ao feijão. Sirva com arroz, couve e farofa.",
+      "dica": "Deixe as carnes de molho de um dia pro outro para tirar o sal."
+    },
+    {
+      "id": 3,
+      "titulo": "Feijão Tropeiro",
+      "descricao": "Sabor mineiro autêntico.",
+      "imagem": "img/th.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-02-10",
+      "conteudo": "Frite bacon, linguiça e alho. Misture feijão cozido, farinha de mandioca e ovos mexidos.",
+      "dica": "Sirva com torresmo crocante e couve refogada."
+    },
+    {
+      "id": 4,
+      "titulo": "Doce de Leite",
+      "descricao": "Cremoso e irresistível.",
+      "imagem": "img/doce de leite.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-10",
+      "conteudo": "Leve ao fogo leite e açúcar, mexendo até engrossar. Continue mexendo até obter a textura desejada.",
+      "dica": "Mexa sempre para não queimar no fundo."
+    },
+    {
+      "id": 5,
+      "titulo": "Goiabada Cascão",
+      "descricao": "A goiabada mais tradicional.",
+      "imagem": "img/goiabada.webp",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-11",
+      "conteudo": "Cozinhe goiabas maduras com açúcar até virar pasta. Espalhe em formas e deixe esfriar.",
+      "dica": "Ótima com queijo minas (Romeu e Julieta)."
+    },
+    {
+      "id": 6,
+      "titulo": "Pão de Queijo",
+      "descricao": "Crocante por fora, macio por dentro.",
+      "imagem": "img/paodequeijo.webp",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-12",
+      "conteudo": "Misture polvilho, leite, óleo e sal. Acrescente queijo ralado e ovos. Faça bolinhas e asse.",
+      "dica": "Use queijo meia cura para sabor mais autêntico."
+    },
+    {
+      "id": 7,
+      "titulo": "Tutu de Feijão",
+      "descricao": "Feijão grosso com tempero forte.",
+      "imagem": "img/tutudefeijao.jpeg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-13",
+      "conteudo": "Amasse feijão cozido, frite alho e bacon, junte ao feijão com farinha de mandioca até engrossar.",
+      "dica": "Sirva com couve e torresmo."
+    },
+    {
+      "id": 8,
+      "titulo": "Vaca Atolada",
+      "descricao": "Costela bovina com mandioca.",
+      "imagem": "img/vacaatolada.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-14",
+      "conteudo": "Cozinhe costela até soltar do osso. Adicione mandioca e cozinhe até virar caldo espesso.",
+      "dica": "Use panela de pressão para acelerar o processo."
+    },
+    {
+      "id": 9,
+      "titulo": "Canjiquinha",
+      "descricao": "Comida de roça com costelinha.",
+      "imagem": "img/canjiquinha.avif",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-15",
+      "conteudo": "Refogue alho, cebola, bacon e costelinha. Junte a canjiquinha lavada e deixe cozinhar até ficar macia.",
+      "dica": "Deixe a canjiquinha de molho antes para cozinhar mais rápido."
+    },
+    {
+      "id": 10,
+      "titulo": "Canjica Doce",
+      "descricao": "Sobremesa cremosa de milho branco.",
+      "imagem": "img/canjica.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-16",
+      "conteudo": "Cozinhe a canjica até ficar macia. Adicione leite, leite condensado, coco e amendoim. Cozinhe até engrossar.",
+      "dica": "Polvilhe canela por cima antes de servir."
+    },
+    {
+      "id": 11,
+      "titulo": "Queijo Minas",
+      "descricao": "Tradicional e artesanal.",
+      "imagem": "img/queijominas.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-17",
+      "conteudo": "Ferva o leite, adicione coalho e deixe talhar. Escorra o soro e modele o queijo em formas. Deixe curar por alguns dias.",
+      "dica": "Ideal com goiabada ou café passado na hora."
+    },
+    {
+      "id": 12,
+      "titulo": "Biscoito Frito",
+      "descricao": "Crocante e leve, perfeito para o café.",
+      "imagem": "img/biscoitofrito.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-18",
+      "conteudo": "Misture polvilho, ovos, leite, óleo e sal. Modele em rolinhos e frite em óleo quente até dourar.",
+      "dica": "Frite aos poucos para não baixar a temperatura do óleo."
+    },
+    {
+      "id": 13,
+      "titulo": "Arroz Doce",
+      "descricao": "Doce simples e saboroso.",
+      "imagem": "img/arrozdoce.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-19",
+      "conteudo": "Cozinhe o arroz com leite, açúcar e canela. Adicione leite condensado e finalize com cravo.",
+      "dica": "Sirva morno ou gelado com canela por cima."
+    },
+    {
+      "id": 14,
+      "titulo": "Broa de Fubá",
+      "descricao": "Tradicional e perfumada com erva-doce.",
+      "imagem": "img/broa.jpg",
+      "autor": "aluno joão gabriel",
+      "data": "2024-04-20",
+      "conteudo": "Misture fubá, farinha de trigo, açúcar, ovos, leite, fermento e erva-doce. Modele e asse até dourar.",
+      "dica": "Pincele com gema antes de assar para um brilho especial."
+    }
+  ]
+}

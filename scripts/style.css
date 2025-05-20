@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffaf0;
+  color: #5d4037;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* Seções destacadas */
+.bg-white {
+  background-color: #fff;
+}
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+ul.list-unstyled li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: #4e342e;
+  margin-top: 20px;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #5d4037;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #ffffff;
+  padding: 0px;
+  text-align: center;
+  color: #4e342e;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+}
+
+/* Seção de boas-vindas */
+section.texto-bemvindo {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+section.texto-bemvindo h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+section.texto-bemvindo p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Cards */
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+
+
+.card-body {
+  background-color: #fffaf0;
+  padding: 20px;
+}
+.card-title {
+  font-size: 1.25rem;
+  color: #4e342e;
+}
+.card-text {
+  color: #5d4037;
+  font-size: 0.95rem;
+}
+#carouselReceitas {
+  max-height: 280px;
+  overflow: hidden;
+}
+#carouselReceitas img {
+  height: 280px;
+  object-fit: cover;
+}
+#carouselReceitas,
+#carouselReceitas img {
+  height: 400px;
+}
+
+
+.dica {
+  margin-top: 30px;
+  background: #fff3e0;
+  padding: 15px 20px;
+  border-left: 5px solid #ff6f00;
+  border-radius: 8px;
+  font-style: italic;
+  color: #a1887f;
+}
+
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+.receita-img, .card img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: 'Merriweather', serif;
+}
+h1, h2, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+.dica {
+  font-style: italic;
+  margin-top: 30px;
+  color: #a1887f;
+}
+h1, h2, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+body, p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.btn-outline-warning {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+.btn-outline-warning {
+  color: white;
+  background-color: #120e0c; /* nova cor */
+  border: 1px solid #ff6f00;
+}
+.btn-outline-warning:hover {
+  background-color: white;
+  color: #ff6f00;
+}
+
